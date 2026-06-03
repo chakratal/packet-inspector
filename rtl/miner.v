@@ -118,7 +118,8 @@ module miner(
 			payload_sequence <= {payload_sequence[23:0], data_in};
 			if ({payload_sequence[23:0], data_in} == 32'hDEADBEEF) begin
 			    drop_flag <= 1'b1;
-		        end if (payload_count == len_reg -1) begin
+		        end 
+			if (payload_count == len_reg -1) begin
 			    state <= STATE_CHK;
 			end
 		    end
