@@ -10,7 +10,7 @@ entity top_arty is
         ck_rst		: in std_logic;
         uart_txd_in	: in std_logic;
         uart_rxd_out	: out std_logic;
-        led0		: out std_logic;
+        led0		: out std_logic
     );
 end entity;
 
