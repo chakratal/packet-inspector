@@ -73,7 +73,7 @@ begin
             xbus_we_o   		=> xbus_we,
             xbus_stb_o  		=> xbus_stb,
             xbus_cyc_o  		=> xbus_cyc,
-            xbus_dat_i  		=> xbus_dat_s2m,
+            xbus_dat_i  		=> std_ulogic_vector(xbus_dat_s2m),
             xbus_ack_i  		=> xbus_ack,
             xbus_err_i  		=> xbus_err
         );
