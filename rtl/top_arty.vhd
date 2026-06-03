@@ -18,7 +18,7 @@ architecture rtl of top_arty is
 
     signal xbus_adr: std_ulogic_vector(31 downto 0);
     signal xbus_dat_m2s: std_ulogic_vector(31 downto 0);
-    signal xbus_dat_s2m: std_ulogic_vector(31 downto 0);
+    signal xbus_dat_s2m: std_logic_vector(31 downto 0);
     signal xbus_cti: std_ulogic_vector(2 downto 0);
     signal xbus_tag: std_ulogic_vector(2 downto 0);
     signal xbus_we: std_ulogic;
