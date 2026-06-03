@@ -54,7 +54,7 @@ begin
 	    IMEM_EN			=> true,
 	    IMEM_SIZE			=> 16 * 1024,
 	    DMEM_EN			=> true,
-	    DMEM_SIZE			=> 8 * 1014,
+	    DMEM_SIZE			=> 8 * 1024,
 	    IO_GPIO_NUM			=> 8,
 	    IO_UART0_EN			=> true,
 	    XBUS_EN			=> true
