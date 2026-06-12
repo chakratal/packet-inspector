@@ -104,7 +104,7 @@ static void print_evaluation(uint32_t evaluation) {
 static void cmd_help(void) {
     neorv32_uart0_printf("Packet Inspector commands: \n");
     neorv32_uart0_printf("send 	  -    send a packet formatted similarly to AA 01 02 03 02 11 22 3B \n");
-    neorv32_uart0_printf("stats     -    show how many accepted, dropped, invalid packets were encountered \n");
+    neorv32_uart0_printf("stats     -    show how many accepted, dropped and invalid packets were encountered \n");
     neorv32_uart0_printf("clear     -    reset counters \n");
     neorv32_uart0_printf("help      -    show inspector commands \n");
     neorv32_uart0_printf("Packet format: SOF SRC DST TYPE LEN PAYLOAD CHK \n");
